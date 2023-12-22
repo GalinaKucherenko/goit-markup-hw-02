@@ -119,10 +119,11 @@ body {
     background: #F4F4FD;
 }
 .team-list {
-    background-color: #FFFFFF
+    
 }
-.team-title {
+.team-item {
     color: #2E2F42;
+    background-color: #FFFFFF;
     text-align: center;
 }
 .team-subtitle {
