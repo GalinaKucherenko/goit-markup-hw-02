@@ -1,25 +1,13 @@
 body {
     font-family: Roboto, sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
   a {
     text-decoration: none;
   }
@@ -28,9 +16,6 @@ body {
   }
   link {
     cursor: pointer;
-  }
-  span {
-    color:#4D5AE5;
   }
   h2 {
     font-size: 36px;
@@ -51,13 +36,16 @@ body {
     background: #FFF;
 }
 .header-logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color:#4D5AE5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.header-logo-span {
+    color: #2E2F42;
 }
 .header-nav-link {
     color: #2E2F42;
@@ -66,14 +54,19 @@ body {
 .header-nav-link:hover {
     color: #404BBF;
 }
-.header-nav-link:active {
+.header-nav-link:focus {
     color: #404BBF;
+}
+.header-address {
+    font-style: normal;
 }
 .header-address-link {
     color: #434455;
-    font-style: normal;
 }
 .header-address-link:hover {
+    color: #404BBF;
+}
+.header-address-link:focus {
     color: #404BBF;
 }
 
@@ -92,6 +85,7 @@ body {
 .main-btn {
     color: #FFF;
     background: #4D5AE5;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -99,6 +93,9 @@ body {
     cursor: pointer;
 }
 .main-btn:hover {
+    background: #404BBF;
+}
+.main-btn:focus {
     background: #404BBF;
 }
 
@@ -120,6 +117,9 @@ body {
 /* ----------Team---------- */
 .team {
     background: #F4F4FD;
+}
+.team-list {
+    background-color: #FFFFFF
 }
 .team-title {
     color: #2E2F42;
@@ -155,14 +155,18 @@ body {
     background: #2E2F42;
 }
 .footer-link {
-    color: #F4F4FD;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.footer-link-span {
+    color: #f4f4fd;
+}
+
 .footer-text {
     color: #F4F4FD;
 }
